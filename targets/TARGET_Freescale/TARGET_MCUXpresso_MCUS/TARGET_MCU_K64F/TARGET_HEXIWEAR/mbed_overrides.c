@@ -20,7 +20,8 @@
 // called before main
 void mbed_sdk_init()
 {
-    BOARD_BootClockRUN();
+    //BOARD_BootClockRUN();
+    BOARD_BootClockVLPR();
 }
 
 // Enable the RTC oscillator if available on the board
